@@ -40,5 +40,5 @@ app.use(shopRoutes);
 app.use(errorController.get404);
 
 mongoConnect(() => {
-  app.listen(3000, consoleColor.blue('  Приложение слушает 3000 порт! (app.js, 43'));
+  app.listen(3000, consoleColor.blue('  Приложение слушает 3000 порт! (app.js, 43)'));
 });
